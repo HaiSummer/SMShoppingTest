@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SMShopTest"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "测试"
   spec.homepage     = "https://github.com/HaiSummer/SMShoppingTest"
   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
