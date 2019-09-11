@@ -15,6 +15,13 @@
 		119F00BC2328A8D8008F5A65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F00BB2328A8D8008F5A65 /* main.m */; };
 		119F00C62328A8D8008F5A65 /* SMShoppingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F00C52328A8D8008F5A65 /* SMShoppingTestTests.m */; };
 		119F00D12328A8D8008F5A65 /* SMShoppingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F00D02328A8D8008F5A65 /* SMShoppingTestUITests.m */; };
+		119F00EC2328AD13008F5A65 /* SMShopTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119F00E32328AD13008F5A65 /* SMShopTest.framework */; };
+		119F00F32328AD13008F5A65 /* SMShopTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F00F22328AD13008F5A65 /* SMShopTestTests.m */; };
+		119F00F52328AD13008F5A65 /* SMShopTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 119F00E52328AD13008F5A65 /* SMShopTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119F00F82328AD13008F5A65 /* SMShopTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119F00E32328AD13008F5A65 /* SMShopTest.framework */; };
+		119F00F92328AD13008F5A65 /* SMShopTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 119F00E32328AD13008F5A65 /* SMShopTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		119F01032328AD70008F5A65 /* SMShopTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 119F01012328AD70008F5A65 /* SMShopTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		119F01042328AD70008F5A65 /* SMShopTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 119F01022328AD70008F5A65 /* SMShopTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +39,42 @@
 			remoteGlobalIDString = 119F00A82328A8D7008F5A65;
 			remoteInfo = SMShoppingTest;
 		};
+		119F00ED2328AD13008F5A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119F00A12328A8D7008F5A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119F00E22328AD13008F5A65;
+			remoteInfo = SMShopTest;
+		};
+		119F00EF2328AD13008F5A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119F00A12328A8D7008F5A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119F00A82328A8D7008F5A65;
+			remoteInfo = SMShoppingTest;
+		};
+		119F00F62328AD13008F5A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 119F00A12328A8D7008F5A65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119F00E22328AD13008F5A65;
+			remoteInfo = SMShopTest;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		119F00FF2328AD13008F5A65 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				119F00F92328AD13008F5A65 /* SMShopTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		119F00A92328A8D7008F5A65 /* SMShoppingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMShoppingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +93,14 @@
 		119F00CC2328A8D8008F5A65 /* SMShoppingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMShoppingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		119F00D02328A8D8008F5A65 /* SMShoppingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMShoppingTestUITests.m; sourceTree = "<group>"; };
 		119F00D22328A8D8008F5A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119F00E32328AD13008F5A65 /* SMShopTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMShopTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119F00E52328AD13008F5A65 /* SMShopTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMShopTest.h; sourceTree = "<group>"; };
+		119F00E62328AD13008F5A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119F00EB2328AD13008F5A65 /* SMShopTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMShopTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		119F00F22328AD13008F5A65 /* SMShopTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMShopTestTests.m; sourceTree = "<group>"; };
+		119F00F42328AD13008F5A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119F01012328AD70008F5A65 /* SMShopTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMShopTestView.h; sourceTree = "<group>"; };
+		119F01022328AD70008F5A65 /* SMShopTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMShopTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119F00F82328AD13008F5A65 /* SMShopTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +126,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		119F00E02328AD13008F5A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119F00E82328AD13008F5A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119F00EC2328AD13008F5A65 /* SMShopTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +150,8 @@
 				119F00AB2328A8D7008F5A65 /* SMShoppingTest */,
 				119F00C42328A8D8008F5A65 /* SMShoppingTestTests */,
 				119F00CF2328A8D8008F5A65 /* SMShoppingTestUITests */,
+				119F00E42328AD13008F5A65 /* SMShopTest */,
+				119F00F12328AD13008F5A65 /* SMShopTestTests */,
 				119F00AA2328A8D7008F5A65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +162,8 @@
 				119F00A92328A8D7008F5A65 /* SMShoppingTest.app */,
 				119F00C12328A8D8008F5A65 /* SMShoppingTestTests.xctest */,
 				119F00CC2328A8D8008F5A65 /* SMShoppingTestUITests.xctest */,
+				119F00E32328AD13008F5A65 /* SMShopTest.framework */,
+				119F00EB2328AD13008F5A65 /* SMShopTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,7 +202,39 @@
 			path = SMShoppingTestUITests;
 			sourceTree = "<group>";
 		};
+		119F00E42328AD13008F5A65 /* SMShopTest */ = {
+			isa = PBXGroup;
+			children = (
+				119F00E52328AD13008F5A65 /* SMShopTest.h */,
+				119F00E62328AD13008F5A65 /* Info.plist */,
+				119F01012328AD70008F5A65 /* SMShopTestView.h */,
+				119F01022328AD70008F5A65 /* SMShopTestView.m */,
+			);
+			path = SMShopTest;
+			sourceTree = "<group>";
+		};
+		119F00F12328AD13008F5A65 /* SMShopTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				119F00F22328AD13008F5A65 /* SMShopTestTests.m */,
+				119F00F42328AD13008F5A65 /* Info.plist */,
+			);
+			path = SMShopTestTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		119F00DE2328AD13008F5A65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119F00F52328AD13008F5A65 /* SMShopTest.h in Headers */,
+				119F01032328AD70008F5A65 /* SMShopTestView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		119F00A82328A8D7008F5A65 /* SMShoppingTest */ = {
@@ -142,10 +244,12 @@
 				119F00A52328A8D7008F5A65 /* Sources */,
 				119F00A62328A8D7008F5A65 /* Frameworks */,
 				119F00A72328A8D7008F5A65 /* Resources */,
+				119F00FF2328AD13008F5A65 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				119F00F72328AD13008F5A65 /* PBXTargetDependency */,
 			);
 			name = SMShoppingTest;
 			productName = SMShoppingTest;
@@ -188,6 +292,43 @@
 			productReference = 119F00CC2328A8D8008F5A65 /* SMShoppingTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		119F00E22328AD13008F5A65 /* SMShopTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119F00FE2328AD13008F5A65 /* Build configuration list for PBXNativeTarget "SMShopTest" */;
+			buildPhases = (
+				119F00DE2328AD13008F5A65 /* Headers */,
+				119F00DF2328AD13008F5A65 /* Sources */,
+				119F00E02328AD13008F5A65 /* Frameworks */,
+				119F00E12328AD13008F5A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMShopTest;
+			productName = SMShopTest;
+			productReference = 119F00E32328AD13008F5A65 /* SMShopTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119F00EA2328AD13008F5A65 /* SMShopTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119F01002328AD13008F5A65 /* Build configuration list for PBXNativeTarget "SMShopTestTests" */;
+			buildPhases = (
+				119F00E72328AD13008F5A65 /* Sources */,
+				119F00E82328AD13008F5A65 /* Frameworks */,
+				119F00E92328AD13008F5A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				119F00EE2328AD13008F5A65 /* PBXTargetDependency */,
+				119F00F02328AD13008F5A65 /* PBXTargetDependency */,
+			);
+			name = SMShopTestTests;
+			productName = SMShopTestTests;
+			productReference = 119F00EB2328AD13008F5A65 /* SMShopTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +346,13 @@
 						TestTargetID = 119F00A82328A8D7008F5A65;
 					};
 					119F00CB2328A8D8008F5A65 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 119F00A82328A8D7008F5A65;
+					};
+					119F00E22328AD13008F5A65 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					119F00EA2328AD13008F5A65 = {
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = 119F00A82328A8D7008F5A65;
 					};
@@ -226,6 +374,8 @@
 				119F00A82328A8D7008F5A65 /* SMShoppingTest */,
 				119F00C02328A8D8008F5A65 /* SMShoppingTestTests */,
 				119F00CB2328A8D8008F5A65 /* SMShoppingTestUITests */,
+				119F00E22328AD13008F5A65 /* SMShopTest */,
+				119F00EA2328AD13008F5A65 /* SMShopTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -249,6 +399,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		119F00CA2328A8D8008F5A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119F00E12328AD13008F5A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119F00E92328AD13008F5A65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -284,6 +448,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		119F00DF2328AD13008F5A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119F01042328AD70008F5A65 /* SMShopTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		119F00E72328AD13008F5A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119F00F32328AD13008F5A65 /* SMShopTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -296,6 +476,21 @@
 			isa = PBXTargetDependency;
 			target = 119F00A82328A8D7008F5A65 /* SMShoppingTest */;
 			targetProxy = 119F00CD2328A8D8008F5A65 /* PBXContainerItemProxy */;
+		};
+		119F00EE2328AD13008F5A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119F00E22328AD13008F5A65 /* SMShopTest */;
+			targetProxy = 119F00ED2328AD13008F5A65 /* PBXContainerItemProxy */;
+		};
+		119F00F02328AD13008F5A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119F00A82328A8D7008F5A65 /* SMShoppingTest */;
+			targetProxy = 119F00EF2328AD13008F5A65 /* PBXContainerItemProxy */;
+		};
+		119F00F72328AD13008F5A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 119F00E22328AD13008F5A65 /* SMShopTest */;
+			targetProxy = 119F00F62328AD13008F5A65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +734,104 @@
 			};
 			name = Release;
 		};
+		119F00FA2328AD13008F5A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SMShopTest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.SMShopTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		119F00FB2328AD13008F5A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SMShopTest/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.SMShopTest;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		119F00FC2328AD13008F5A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				INFOPLIST_FILE = SMShopTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.SMShopTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMShoppingTest.app/SMShoppingTest";
+			};
+			name = Debug;
+		};
+		119F00FD2328AD13008F5A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9RWES6K38C;
+				INFOPLIST_FILE = SMShopTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.summer.SMShopTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMShoppingTest.app/SMShoppingTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -574,6 +867,24 @@
 			buildConfigurations = (
 				119F00DC2328A8D8008F5A65 /* Debug */,
 				119F00DD2328A8D8008F5A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119F00FE2328AD13008F5A65 /* Build configuration list for PBXNativeTarget "SMShopTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119F00FA2328AD13008F5A65 /* Debug */,
+				119F00FB2328AD13008F5A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119F01002328AD13008F5A65 /* Build configuration list for PBXNativeTarget "SMShopTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119F00FC2328AD13008F5A65 /* Debug */,
+				119F00FD2328AD13008F5A65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

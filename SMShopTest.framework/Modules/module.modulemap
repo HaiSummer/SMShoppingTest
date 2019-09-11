@@ -1,0 +1,6 @@
+framework module SMShopTest {
+  umbrella header "SMShopTest.h"
+
+  export *
+  module * { export * }
+}

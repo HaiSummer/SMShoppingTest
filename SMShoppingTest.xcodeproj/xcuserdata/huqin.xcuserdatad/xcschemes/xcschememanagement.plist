@@ -4,10 +4,43 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SMShopTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>SMShoppingTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>119F00A82328A8D7008F5A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119F00C02328A8D8008F5A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119F00CB2328A8D8008F5A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119F00E22328AD13008F5A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>119F00EA2328AD13008F5A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
